@@ -24,7 +24,6 @@
                 </div>
                 <div class="container">
                     {{ Form::open() }}
-                    <form method="POST" action="/locations">
                         {{ csrf_field() }}
                         <div class="form-row">
                             <div class="col">
@@ -35,8 +34,7 @@
                             </div>
                         </div>
                         <br>
-                    {!! Form::button('Fetch Distance',  ["class" => "btn btn-primary", "id" => "fetchData"]) !!}
-                    {{--@include('errors')--}}
+                    {!! Form::button('Fetch Data',  ["class" => "btn btn-primary", "id" => "fetchData"]) !!}
                     {{ Form::close() }}
                 </div>
             </section>
@@ -61,6 +59,14 @@
                     </div>
                 </div>
             </section>
+
+            <section class="row text-center placeholders maps">
+                <div class="col-12" >
+                    <h4>Directions</h4>
+                    <div id="map" class="map" style="height: 100%"></div>
+                </div>
+            </section>
+            <br>
         </main>
     </div>
 </div>
