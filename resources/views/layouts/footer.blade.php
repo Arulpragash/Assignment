@@ -67,7 +67,7 @@
                 success: function(response){
                     var response = $.parseJSON(response);
 
-                    $('.table tbody').append("<tr>" +
+                    $('.table tbody').html("<tr>" +
                         "<td>" + response.origin_addresses + "</td>" +
                         "<td>" + response.destination_addresses + "</td>" +
                         "<td>" + response.rows[0].elements[0].distance.text + "</td>" +
