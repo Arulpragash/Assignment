@@ -1,8 +1,8 @@
 # Interactive Maps and Places Application
 
-This Project utilizes Laravel framework 5.4, which communicates with Google Distance Matrix API, and Maps API to allow users to get data between two geographical locations such as distance, time, and traffic data.
+This Project utilizes Laravel framework 5.4, which communicates with Google Distance Matrix API, Google Places API and Google Maps and Embed API to allow users to get data between two geographical locations such as distance, time, and traffic data.
 
-Simply run 'composer update', then 'php artisan serve', and the project will be up and running on your server.
+Simply clone the repo run 'composer update', then 'php artisan serve', and the project will be up and running on your server.
 
 Enter the start and end locations, and click fetch data, you will get the distance between the two points, as well as the time needed. The Google maps will show you the directions.
 
@@ -15,4 +15,4 @@ Enter the start and end locations, and click fetch data, you will get the distan
 
 # Key Concerns
 
-The source code contains user generated API key that is been exposed currently.
+The source code contains user specific Google console generated API keys that is been exposed currently.
