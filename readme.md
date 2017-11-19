@@ -9,7 +9,7 @@ Enter the start and end locations, and click fetch data, you will get the distan
 # Next Steps
 
 1. This project could be further improved to provide realtime traffic data, and show it in maps so that the user can be suggested with alternative routes.
-2. We can also give extra information such as Elevation points, and suggestions for alternative routes.
+2. We can also give extra information such as Elevation points, and different travel modes (driving, walking, taxi, etc...).
 3. Currently this only supports TO and FROM locations, we can update this application by adding several stops, so that the API can calculate the optimum route.
 4. We can enable user logins, and save search history to a database, so that the user can review history. Furthermore, on search history entry click we can retreive data, so that the user doesnt have to always enter TO and FROM.
 
