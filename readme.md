@@ -1,4 +1,4 @@
-# Assignment
+# Interactive Maps and Places Application
 
 This Project utilizes Laravel framework 5.4, which communicates with Google Distance Matrix API, and Maps API to allow users to get data between two geographical locations such as distance, time, and traffic data.
 
