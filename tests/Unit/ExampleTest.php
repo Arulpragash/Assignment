@@ -17,4 +17,10 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testHomepage()
+    {
+        $this->visit('/')
+            ->see('Fetch Data');
+    }
 }
